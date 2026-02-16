@@ -287,10 +287,8 @@
                 <form class="contact-form" action="https://formsubmit.co/youremail@example.com" method="POST">
                     <!-- FormSubmit Configuration -->
                     <input type="hidden" name="_captcha" value="true">
+                    <input type="text" name="_honey" style="display:none">
                     <input type="hidden" name="_template" value="table">
-                    
-                    <!-- Honeypot field for spam prevention (hidden via CSS, not type="hidden") -->
-                    <input type="text" name="_honeypot" class="honeypot" tabindex="-1" autocomplete="off">
                     
                     <div class="form-group">
                         <label for="name">Full Name *</label>
